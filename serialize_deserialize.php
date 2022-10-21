@@ -25,10 +25,11 @@ class student
     }
 }
 $obj = new student();
-
+echo "object before serialization is : ";
 echo $obj->display();
 
 $output_str = serialize($obj);
+echo "<br>";
 echo "serialized object is : ".$output_str;
 
 // echo "<br><br>";
