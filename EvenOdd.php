@@ -11,6 +11,11 @@ function EvenOdd($x){
     } 
 }  
 EvenOdd($x) 
+?>
+<!-- <?php
+$hello = "vishnu";
+$var = "$Hello";
 
-?> 
+echo $var."".$$var;
+?>  -->
 
